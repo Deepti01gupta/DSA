@@ -8,6 +8,7 @@ public class Fact {
 		System.out.println(fact(n));
 	}
 	
+	// TC: O(N)+1
 	public static int fact(int n) {
 		// base case
 		if(n==1) {

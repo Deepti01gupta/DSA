@@ -9,6 +9,7 @@ public class Fibo {
 		System.out.println(fibo(n));
 	}
 	
+	// TC : O(2^(log N)) 
 	public static int fibo(int n) {
 		if(n==0 || n==1) {
 			return n;
