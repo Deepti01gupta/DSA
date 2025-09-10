@@ -27,6 +27,7 @@ public class Chessboard_Problem {
 		// a knight, only the positive ones are valid
 		Print_Chessboard(n, cr + 2, cc + 1, er, ec, ans + "{" + cr + "-" + cc + "}K");
 		Print_Chessboard(n, cr + 1, cc + 2, er, ec, ans + "{" + cr + "-" + cc + "}K");
+		
 		// rook
 		if (cr == er || cc == ec || cr == 0 || cc == 0) {
 			// horizontally
@@ -38,6 +39,7 @@ public class Chessboard_Problem {
 				Print_Chessboard(n, cr + i, cc, er, ec, ans + "{" + cr + "-" + cc + "}R");
 			}
 		}
+		
 		// bishop
 		if (cr == cc || (cr + cc == ec)) {
 			for (int i = 1; i <= n; i++) {
