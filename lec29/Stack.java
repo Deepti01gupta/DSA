@@ -2,7 +2,7 @@ package lec29;
 
 public class Stack {  // LIFO
 
-	private int[] arr;
+	protected int[] arr;
 	private int idx=-1;
 	
 	public Stack() {
