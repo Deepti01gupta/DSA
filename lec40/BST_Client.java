@@ -6,6 +6,7 @@ public class BST_Client {
 		// TODO Auto-generated method stub
 		int[] in= {10,20,30,40,50,60,70};
 		Binary_Search_Tree bst=new Binary_Search_Tree(in);
+		System.out.println(bst);
 	}
 
 }

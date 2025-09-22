@@ -11,7 +11,7 @@ public class Create_tree_Using_Level_Order {
 		Node right;
 	}
 	
-	private Node root;
+	public Node root;
 	
 	public Create_tree_Using_Level_Order(){
 		createTree();

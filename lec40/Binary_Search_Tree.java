@@ -8,7 +8,7 @@ public class Binary_Search_Tree {
 		Node right;
 	}
 	
-	private Node root;
+	public Node root;
 	
 	public Binary_Search_Tree(int[] in) {
 		root=Create_Tree(in,0,in.length-1);
@@ -22,7 +22,5 @@ public class Binary_Search_Tree {
 		nn.right=Create_Tree(in,mid+1,ei);
 		return nn;
 	}
-
-	
 
 }
