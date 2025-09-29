@@ -21,8 +21,16 @@ public class IPO {
 	
 	public static int findMaximizedCapital(int[][] arr, int k, int w) {
 		
+		// array ko 0 idx k according sort krenge
 		Arrays.sort(arr,(a,b)->a[0]-b[0]);
+		
+		// pq ko ham 1 idx k according sort krenge
 		PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->b[1]-a[1]);
+		
+		
+		// agar haamra w hamare ith idx k elemet k capital se badha hoga to pq main add kr denge
+		// or agar pq empty hue ye k 0 hua to w ko direct return kr denge
+		// nahi to ham pq se value nikalke uske profit ko w main add kr denge
 		
 		for(int i=0; i<arr.length;) {
 			while(i<arr.length && w>=arr[i][0]) {

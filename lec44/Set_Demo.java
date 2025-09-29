@@ -8,6 +8,7 @@ public class Set_Demo {
 		// TODO Auto-generated method stub
 
 		HashSet<Integer> set=new HashSet<>();
+		// add : O(1)
 		set.add(1);
 		set.add(31);
 		set.add(7);

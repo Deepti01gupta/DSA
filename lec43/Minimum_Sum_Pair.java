@@ -1,10 +1,12 @@
-package lec44;
+package lec43;
+
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Minimum_sum_pair {
+public class Minimum_Sum_Pair {
 
+	
 //	https://codeskiller.codingblocks.com/problems/2698
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +16,6 @@ public class Minimum_sum_pair {
 		for(int i=0; i<n; i++) {
 			arr[i]=sc.nextInt();
 		}
-		
 		
 		PriorityQueue<Integer> pq=new PriorityQueue<>();
 		for(int i=0; i<arr.length; i++) {

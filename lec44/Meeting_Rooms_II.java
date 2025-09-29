@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 public class Meeting_Rooms_II {
 
 	// on leetcode: meeting room 2
+//	https://leetcode.com/problems/meeting-rooms-ii/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -24,6 +25,9 @@ public class Meeting_Rooms_II {
 		Arrays.sort(intervals,(a,b)->a[0]-b[0]);
 		PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)-> a[1]-b[1]);
 		pq.add(intervals[0]);
+		
+		// ham pq main end k according sort krke value rakh rhe h inc order main
+		// agar hamara i k start peek k end se badha h to usko bahar kr denge
 		
 		for(int i=1; i<intervals.length; i++) {
 			if(intervals[i][0]>=pq.peek()[1]) {

@@ -9,7 +9,7 @@ public class HashMap_Demo {
 
 		HashMap<String, Integer> map=new HashMap<>();
 		
-		// add
+		// add : O(1)
 		map.put("Raj", 77);
 		map.put("Kunal", 67);
 		map.put("Ankit", 97);
@@ -19,22 +19,25 @@ public class HashMap_Demo {
 		map.put("Amisha", 39);
 		System.out.println(map);
 //		
-//		// get
+//		// get :O(1)
 //		System.out.println(map.get("Kaju"));
 //		System.out.println(map.get("Amisha"));
 //		
-//		// conatinsKey
+//		// conatinsKey :O(1)
 //		System.out.println(map.containsKey("Kaju"));
 //		System.out.println(map.containsKey("Amisha"));
 //		
-//		// remove
+//		// remove :O(1)
 //		System.out.println(map.remove("Kaju"));
 //		System.out.println(map.remove("Amisha"));
 //		System.out.println(map);
 		
+		// size
+//		System.out.println(map.size());
+		
 		
 		TreeMap<String, Integer> map1=new TreeMap<>();
-//		 add
+//		 add :O(N)
 		map1.put("Raj", 77);
 		map1.put("Kunal", 67);
 		map1.put("Ankit", 97);
@@ -47,7 +50,7 @@ public class HashMap_Demo {
 		
 		
 		LinkedHashMap<String, Integer> map2=new LinkedHashMap<>();
-		//	 add
+		//	 add :O(N)
 		map2.put("Raj", 77);
 		map2.put("Kunal", 67);
 		map2.put("Ankit", 97);

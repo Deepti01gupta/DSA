@@ -11,15 +11,19 @@ public class Heap {
 		upheapify(ll.size()-1);
 	}
 	
+	// agar parent k data child k data se badha h to swap kr denge
+	// pi: parent idx
+	// ci: child idx
 	private void upheapify(int ci) {
 		int pi=(ci-1)/2;
 		if(ll.get(pi)>ll.get(ci)) {
 			swap(pi,ci);
 			upheapify(pi);
 		}
-				
 	}
 	
+	// pith: parent idx value
+	// cith: child idx value
 	private void swap(int pi, int ci) {
 		int pith=ll.get(pi);
 		int cith=ll.get(ci);

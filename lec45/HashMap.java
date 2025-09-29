@@ -2,6 +2,10 @@ package lec45;
 
 import java.util.*;
 
+//Average TC of hashmap is O(1)
+//In worse case TC of hashmap is O(N) when all data is filled in a single block.
+
+
 public class HashMap<K,V> {
 
 	class Node{
@@ -41,8 +45,8 @@ public class HashMap<K,V> {
 		bukt.set(idx, nn);
 		size++;
 		
-		double thf=2.0;
-		double lf=(1.0*size)/bukt.size();
+		double thf=2.0;  // threshold
+		double lf=(1.0*size)/bukt.size();  
 		if(lf>thf) {
 			rehashing();
 		}
@@ -142,5 +146,10 @@ public class HashMap<K,V> {
 			idx+=bukt.size();
 		}
 		return idx;
+	}
+
+	public int[] keySet() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
