@@ -5,8 +5,6 @@ public class Notes {
 }
 
 
-// https://leetcode.com/problems/group-anagrams/description/
-
 // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
 

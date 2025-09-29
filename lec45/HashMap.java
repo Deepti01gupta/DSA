@@ -8,7 +8,7 @@ import java.util.*;
 
 public class HashMap<K,V> {
 
-	class Node{
+	class Node{ 
 		K key;
 		V value;
 		Node next;
@@ -45,8 +45,8 @@ public class HashMap<K,V> {
 		bukt.set(idx, nn);
 		size++;
 		
-		double thf=2.0;  // threshold
-		double lf=(1.0*size)/bukt.size();  
+		double thf=2.0;  // threshold factor
+		double lf=(1.0*size)/bukt.size();  // load factor
 		if(lf>thf) {
 			rehashing();
 		}
