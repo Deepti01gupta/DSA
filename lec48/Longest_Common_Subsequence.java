@@ -22,7 +22,7 @@ public class Longest_Common_Subsequence {
 		for(int i=1; i<dp.length; i++) {
 			for(int j=1; j<dp[0].length; j++) {
 				int ans=0;
-				if(s1.charAt(i-1)==s2.charAt(j-1)) {
+				if(s1.charAt(i-1)==s2.charAt(j-1)) {  // char (i-1) and (j-1) isliye liya h kyuki 0 idx pr '_' hai
 					ans=1+dp[i-1][j-1];
 				}
 				else {
@@ -55,6 +55,7 @@ public class Longest_Common_Subsequence {
 		}
 		return dp[i][j]=ans;
 	}
+	
 	
 	public static int LCS(String s1, String s2, int i, int j) {
 		if(i==s1.length() || j==s2.length()) {

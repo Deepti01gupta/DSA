@@ -2,7 +2,7 @@ package lec49;
 
 import java.util.*;
 
-public class O_N_knapsack_problem {
+public class O_1_knapsack_problem {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

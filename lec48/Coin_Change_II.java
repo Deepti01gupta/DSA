@@ -1,4 +1,4 @@
-package lec48;
+ package lec48;
 
 //import java.util.*;
 

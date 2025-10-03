@@ -40,7 +40,7 @@ public class Distinct_Subsequences {
 		return dp[i][j]=exc+inc;
 	}
 	
-//	s= coin, t=amount, i=s k pointer , j- t k pointer
+//	s= coin, t=amount, i=s k pointer , j= t k pointer
 	public static int Coin_change(String s, String t, int i, int j) {
 		if(j==t.length()) {
 			return 1;
