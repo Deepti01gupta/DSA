@@ -32,7 +32,7 @@ public class Edit_distance {
 		
 		int ans=0;
 		if(s.charAt(i)==t.charAt(j)) {
-			ans=1+Min_Ops1(s,t,i+1,j+1,dp);
+			ans=Min_Ops1(s,t,i+1,j+1,dp);
 		}
 		else {
 			int D=Min_Ops1(s,t,i+1,j,dp);  // delete
@@ -53,7 +53,7 @@ public class Edit_distance {
 		
 		int ans=0;
 		if(s.charAt(i)==t.charAt(j)) {
-			ans=1+Min_Ops(s,t,i+1,j+1);
+			ans=Min_Ops(s,t,i+1,j+1);
 		}
 		else {
 			int D=Min_Ops(s,t,i+1,j);  // delete
