@@ -4,6 +4,8 @@ import java.util.*;
 
 public class Graph_Valid_Tree {
     class Solution{
+    	
+//    	https://leetcode.ca/all/261.html
         public boolean validTree(int n,int[][] edges){
             HashMap<Integer, List<Integer>> mp=new HashMap<>();
             for (int i=0;i<n;i++){
