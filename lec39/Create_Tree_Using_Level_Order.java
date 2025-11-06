@@ -32,6 +32,7 @@ public class Create_Tree_Using_Level_Order {
 		q.add(node);
 		while(!q.isEmpty()) {
 			Node rv=q.poll();
+			
 			int c1=sc.nextInt();
 			int c2=sc.nextInt();
 			if(c2!=-1) {
