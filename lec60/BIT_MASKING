@@ -1,0 +1,21 @@
+
+BIT MASKING
+
+
+bit : 0,1
+mark : varible to solve bit masking question
+
+& : bitwise and
+| : bitwise or
+~ : bitwise not
+^ : bitwise xor
+>> : bitwise rightshift
+<< : bitwise leftshift
+
+original TC of all operator is O(1)
+but pratically TC of bitwise operator is faster than all other operator.
+
+
+
+
+
