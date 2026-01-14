@@ -9,6 +9,7 @@ public class Count_Set_Bit {
 		System.out.println(FastCountSetBit(n));
 	}
 	
+	// TC: O(log N)
 	public static int countSetBit(int n) {
 		int ans=0;
 		while(n>0){
@@ -20,6 +21,7 @@ public class Count_Set_Bit {
 		return ans;
 	}
 	
+	// 
 	public static int FastCountSetBit(int n) {
 		int ans=0;
 		while(n>0) {
