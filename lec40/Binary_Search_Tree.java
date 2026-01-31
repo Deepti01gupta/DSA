@@ -8,10 +8,11 @@ public class Binary_Search_Tree {
 		Node right;
 	}
 	
-	private Node root;
+//	private Node root;
 	
 	public Binary_Search_Tree(int[] in) {
-		root=Create_Tree(in,0,in.length-1);
+		Node root=Create_Tree(in,0,in.length-1);
+		System.out.println(root);
 	}
 	
 	private Node Create_Tree(int[] in, int si, int ei) {

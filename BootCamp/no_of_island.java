@@ -1,8 +1,6 @@
 package BootCamp;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class no_of_island {
 	

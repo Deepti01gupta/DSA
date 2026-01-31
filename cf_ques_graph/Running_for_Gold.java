@@ -31,13 +31,14 @@ public class Running_for_Gold {
                 int a=st.pop();
                 int b=st.pop();
                 
-                int c1=0, c2=0;
+                int c1=0;
+//                int c2=0;
                 for(int i=0; i<5; i++){
                     if(arr[a][i]<arr[b][i]){
                         c1++;
                     }
                     else if(arr[a][i]>arr[b][i]){
-                        c2++;
+//                        c2++;
                     }
                 }
                 

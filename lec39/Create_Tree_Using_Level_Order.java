@@ -37,12 +37,12 @@ public class Create_Tree_Using_Level_Order {
 			int c2=sc.nextInt();
 			if(c2!=-1) {
 				Node nn=new Node(c1);
-				root.left=nn;
+				rv.left=nn;
 				q.add(nn);
 			}
 			if(c2!=-1) {
 				Node nn=new Node(c1);
-				root.left=nn;
+				rv.left=nn;
 				q.add(nn);
 			}
 		}

@@ -6,11 +6,13 @@ public class Longest_Cycle_in_a_Graph {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] edges= {3,3,4,2,3};
+		int ans=longestCycle(edges);
+		System.out.println(ans);
 
 	}
 	
 	// https://leetcode.com/problems/longest-cycle-in-a-graph/
-	public int longestCycle(int[] edges) {
+	public static int longestCycle(int[] edges) {
         int[] in=new int[edges.length];
 	    for(int i=0; i<edges.length; i++) {
 	       	in[edges[i]]++;
