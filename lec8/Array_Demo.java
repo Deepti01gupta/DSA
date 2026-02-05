@@ -13,6 +13,8 @@ public class Array_Demo {
 		arr[2]=30;
 		arr[3]=40;
 		arr[4]=50;
+		
+		System.out.println(other);
 		System.out.println(arr[0]);
 		System.out.println(arr[1]);
 		System.out.println(arr[2]);
