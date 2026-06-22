@@ -9,7 +9,7 @@ public class Pangram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		sc.nextInt();
 		
 		String s=sc.next().toLowerCase();
 		int[] arr=new int[26];
@@ -20,6 +20,7 @@ public class Pangram {
 		for(int i=0; i<26; i++) {
 			if(arr[i]==0) {
 				System.out.println("NO");
+				sc.close();
 				return;
 			}
 		}

@@ -1,4 +1,4 @@
-package cf_ques_graph;
+package Codeforces;
 
 import java.util.*;
 
